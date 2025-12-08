@@ -1,6 +1,6 @@
 import type { PageProps } from "@site/utilities/deps";
 
-import { StoreLayout } from "@site/layouts/store-layout";
+import { ShopLayout } from "@site/layouts/shop-layout";
 import { fetchProductSingleSection, ProductSingleSection } from "@site/sections/prouct-single-section";
 import { fetchStaticPaths, fetchStaticProps, invariant, NextSeo } from "@site/utilities/deps";
 
@@ -28,9 +28,9 @@ export default function Page(props: PageProps<typeof getStaticProps>) {
   const { seo } = props.data.productSingleSection;
 
   return (
-    <StoreLayout>
+    <ShopLayout>
       <NextSeo title={seo.title} description={seo.description} />
       <ProductSingleSection data={props.data.productSingleSection} />
-    </StoreLayout>
+    </ShopLayout>
   );
 }

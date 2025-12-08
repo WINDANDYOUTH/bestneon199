@@ -1,6 +1,6 @@
 import type { PageProps } from "@site/utilities/deps";
 
-import { StoreLayout } from "@site/layouts/store-layout";
+import { ShopLayout } from "@site/layouts/shop-layout";
 import { fetchProductListSection, ProductListSection } from "@site/sections/product-list-section";
 import { fetchServerSideProps, NextSeo } from "@site/utilities/deps";
 
@@ -17,9 +17,9 @@ export const getStaticProps = fetchServerSideProps(async () => {
 
 export default function Page(props: PageProps<typeof getStaticProps>) {
   return (
-    <StoreLayout>
+    <ShopLayout>
       <NextSeo title="Products" description="All Products from Next Shopify Storefront" />
       <ProductListSection data={props.data.productListSection} />
-    </StoreLayout>
+    </ShopLayout>
   );
 }
