@@ -6,7 +6,6 @@ import { FAQSection } from "@site/sections/faq-section";
 import { HeroSection } from "@site/sections/hero-section";
 import { PricingAndOptions } from "@site/sections/pricing-and-options";
 import { ProductCategories } from "@site/sections/product-categories";
-import { RealWork } from "@site/sections/real-work";
 import { ShippingWarranty } from "@site/sections/shipping-warranty";
 import { WhyChooseUs } from "@site/sections/why-choose-us";
 
@@ -16,7 +15,6 @@ export default function Page() {
       <HeroSection />
       <WhyChooseUs />
       <ProductCategories />
-      <RealWork />
       <CustomProcess />
       <PricingAndOptions />
       <FactoryStrength />
