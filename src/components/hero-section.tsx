@@ -84,7 +84,7 @@ export function HeroSection() {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="text-sm font-semibold text-white">10+ Years Experience</span>
+              <span className="text-sm font-semibold text-white">6+ Years Experience</span>
             </div>
           </div>
 
