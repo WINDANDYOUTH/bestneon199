@@ -1,13 +1,26 @@
 import { Dialog, Popover } from "@headlessui/react";
-import { Bars3Icon, ShoppingBagIcon, ShoppingCartIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, ShoppingCartIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useCart } from "@shopify/hydrogen-react";
+import Image from "next/image";
 
 import { clsx, NextLink, useRouter, useState } from "@site/utilities/deps";
 
 const mainMenuItems: { text: string; href: string }[] = [
   {
+    text: "Home",
+    href: "/",
+  },
+  {
     text: "Products",
     href: "/products",
+  },
+  {
+    text: "About Us",
+    href: "/about-us",
+  },
+  {
+    text: "Contact Us",
+    href: "/contact-us",
   },
 ];
 
@@ -27,8 +40,9 @@ export function HeaderSection() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <NextLink href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Next Shopify Storefront</span>
-            <ShoppingBagIcon className="h-6 w-6"></ShoppingBagIcon>
+            <div className="relative h-12 w-12 overflow-hidden rounded-lg">
+              <Image src="/logo.webp" alt="Best Trading (Dongguan) Co., Ltd" fill className="object-contain" />
+            </div>
           </NextLink>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">

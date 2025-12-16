@@ -1,3 +1,4 @@
+import { ShopLayout } from "@site/layouts/shop-layout";
 import { ContactBlock } from "@site/sections/contact-block";
 import { CustomProcess } from "@site/sections/custom-process";
 import { CustomerReviews } from "@site/sections/customer-reviews";
@@ -11,7 +12,7 @@ import { WhyChooseUs } from "@site/sections/why-choose-us";
 
 export default function Page() {
   return (
-    <>
+    <ShopLayout fullWidth>
       <HeroSection />
       <WhyChooseUs />
       <ProductCategories />
@@ -22,6 +23,6 @@ export default function Page() {
       <ShippingWarranty />
       <FAQSection />
       <ContactBlock />
-    </>
+    </ShopLayout>
   );
 }
