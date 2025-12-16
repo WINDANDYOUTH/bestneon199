@@ -1,20 +1,20 @@
 'use client';
-import Image from 'next/image';
 import { 
   BuildingOffice2Icon, 
   CheckBadgeIcon, 
   GlobeAmericasIcon, 
   UsersIcon 
 } from '@heroicons/react/24/outline'; // Outline icons
+import Image from 'next/image';
 
 
 
 export function FactoryStrength() {
   const stats = [
-    { label: "Years Experience", value: "10+", icon: <UsersIcon className="w-6 h-6" /> },
+    { label: "Years Experience", value: "6+", icon: <UsersIcon className="w-6 h-6" /> },
     { label: "Factory Size", value: "5000m²", icon: <BuildingOffice2Icon className="w-6 h-6" /> },
-    { label: "Export Countries", value: "50+", icon: <GlobeAmericasIcon className="w-6 h-6" /> },
-    { label: "Annual Capacity", value: "100k+", icon: <CheckBadgeIcon className="w-6 h-6" /> },
+    { label: "Export Countries", value: "20+", icon: <GlobeAmericasIcon className="w-6 h-6" /> },
+    { label: "Annual Capacity", value: "10k+", icon: <CheckBadgeIcon className="w-6 h-6" /> },
   ];
 
   return (
@@ -39,7 +39,7 @@ export function FactoryStrength() {
             </h2>
             
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              We are not just a design studio; we own our production lines. With over a decade of expertise, our 5,000m² facility combines advanced CNC technology with traditional craftsmanship to deliver superior neon signs globally.
+              We are not just a design studio; we own our production lines. With over six years of expertise, our 5,000m² facility combines advanced CNC technology with traditional craftsmanship to deliver superior neon signs globally.
             </p>
 
             {/* Stats Grid */}

@@ -140,7 +140,7 @@ export function WhyChooseUs() {
           </h2>
 
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            With over a decade of expertise and cutting-edge technology, we deliver exceptional quality
+            With over six years of expertise and cutting-edge technology, we deliver exceptional quality
             and service that sets us apart in the industry.
           </p>
         </div>

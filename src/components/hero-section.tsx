@@ -61,7 +61,7 @@ export function HeroSection() {
               <svg className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
               </svg>
-              <span className="text-sm font-semibold text-white">ISO 9001 Certified</span>
+              <span className="text-sm font-semibold text-white">CE/FCC Certified</span>
             </div>
 
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg">
@@ -106,7 +106,7 @@ export function HeroSection() {
 
           {/* Description Paragraph */}
           <p className="mt-6 text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            With over a decade of expertise in neon sign manufacturing, we combine cutting-edge LED technology
+            With over six years of expertise in neon sign manufacturing, we combine cutting-edge LED technology
             with traditional craftsmanship to deliver exceptional custom neon signs. Our state-of-the-art facility
             produces thousands of premium quality signs monthly, serving businesses and individuals worldwide.
           </p>
